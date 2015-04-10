@@ -1,0 +1,73 @@
+\chapter[Requesitos]{Requesitos}
+
+\section{Requisitos Funcionais}
+
+\begin{table}[h]
+	\centering
+	\label{tab01}
+	
+	\begin{tabular}{ccc}
+		\toprule
+		\textbf{Id} & 
+		\textbf{Descrição}\\
+		\midrule
+		RF01 & O sistema devera ter um histórico de preço \\
+		RF02 & O sistema deverá ter um ranking das passagens mais baratas \\
+		RF03 & O sistema deverá ter um gráfico dos meses com os preços mais baratos \\
+		RF04 & O sistema deve permitir inserir o site de busca dos preços \\
+		RF05 & O sistema deve permitir inserir os valores de máximo e minimo das passagens \\
+		RF06 & O sistema deve permitir configurar a data e hora para realização da pesquisa \\
+		RF07 & O sistema deverá permitir exportar o histórico de preços em pdf \\
+		\bottomrule
+	\end{tabular}
+
+\end{table}
+
+
+\section{Requesitos Não Funcionais}
+
+\subsection{Usabilidade}
+
+\begin{itemize}
+
+	\item O sistema deverá apresentar uma mensagem caso os preços não se adequem as configurações durante o período de 15 dias.
+	\item O sistema deverá ser responsivo, se adequando a diferentes telas de smartphones
+
+\end{itemize}
+
+
+\subsection{Confiabilidade}
+
+\begin{itemize}
+
+	\item O sistema deverá realizar o backup do histórico de preços
+	\item O sistema deverá guardar o backup do histórico de preços por um ano. 
+
+\end{itemize}
+
+
+\subsection{Performance}
+
+\begin{itemize}
+
+	\item O sistema deverá fazer consultas no site informado somente nos dias e horários configurados.
+
+\end{itemize}
+
+
+\subsection{Suportabilidade}
+
+\begin{itemize}
+
+	\item O sistema deverá ser compatível com a plataforma android a partir da versão 2.3.3
+
+\end{itemize}
+
+
+\subsection{Projeto}
+
+\begin{itemize}
+
+	\item O sistema deverá usar o banco sqlite
+\end{itemize}
+

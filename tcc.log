@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2015.4.10)  10 APR 2015 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=latex 2015.4.10)  10 APR 2015 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,9 +8,8 @@ up.tex fixos/listasAutomaticas.tex fixos/indiceAutomatico.tex editaveis/informa
 coes.tex editaveis/errata.tex editaveis/dedicatoria.tex editaveis/agradecimento
 s.tex editaveis/epigrafe.tex editaveis/resumo.tex editaveis/abstract.tex editav
 eis/abreviaturas.tex editaveis/simbolos.tex editaveis/introducao.tex editaveis/
-aspectosgerais.tex editaveis/consideracoes.tex editaveis/textoepostexto.tex edi
-taveis/elementosdotexto.tex editaveis/elementosdopostexto.tex editaveis/apendic
-es.tex editaveis/anexos.tex
+storyboard.tex editaveis/requisitos.tex editaveis/elementosdotexto.tex editavei
+s/elementosdopostexto.tex editaveis/apendices.tex editaveis/anexos.tex
 (./tcc.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -963,7 +962,20 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
 
 Writing index file tcc.idx 
-No file tcc.aux.
+(./tcc.aux
+
+LaTeX Warning: Label `fig01' multiply defined.
+
+
+LaTeX Warning: Label `fig01' multiply defined.
+
+
+LaTeX Warning: Label `fig01' multiply defined.
+
+
+LaTeX Warning: Label `fig01' multiply defined.
+
+)
 \openout1 = `tcc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -981,7 +993,7 @@ LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 9.
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box31
@@ -1001,9 +1013,6 @@ LaTeX Info: Redefining \nameref on input line 9.
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
 LaTeX Info: Redefining \nameref on input line 9.
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Info: Redefining \degres on input line 9.
 LaTeX Info: Redefining \dots on input line 9.
 LaTeX Info: Redefining \up on input line 9.
@@ -1025,267 +1034,127 @@ File: figuras/capa.eps Graphic file (type eps)
 
 ] [2
 
+] [1
+
+
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 14.
+(./fixos/listasAutomaticas.tex (./tcc.lof
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 14.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 14.
-
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 14.
-
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 2.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 14.
- [1
-
-
-] (./fixos/fichaCatalografica.tex
-
-LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 12.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
-
-
-Overfull \hbox (16.44858pt too wide) in paragraph at lines 16--19
-[]  [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--19
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--27
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
-
- []
-
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 30.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 30.
-) (./editaveis/errata.tex [2]
-
-LaTeX Warning: Citation `NBR14724:2011' on page 3 undefined on input line 2.
-
-[3
+(Font)              <6> on input line 2.
+) [2] (./tcc.lot) [3
 
 ] [4
 
-]) (./fixos/folhaDeAprovacao.tex [5
+])
+(./editaveis/abreviaturas.tex [5
 
 ] [6
 
-]) (./editaveis/dedicatoria.tex
-[7] [8
+]) (./editaveis/simbolos.tex [7
 
-]) (./editaveis/agradecimentos.tex [9
-
-] [10
-
-]) (./editaveis/epigrafe.tex
-[11] [12
-
-]) (./editaveis/resumo.tex [13] [14
-
-]) (./editaveis/abstract.tex
-[15] [16
-
-]) (./fixos/listasAutomaticas.tex [17] [18
-
-] [19] [20
+] [8
 
 ])
-(./editaveis/abreviaturas.tex [21
+(./fixos/indiceAutomatico.tex (./tcc.toc
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 8.
+) [9] [10
 
-] [22
+]) (./editaveis/storyboard.tex) (./editaveis/requisitos.tex [11
 
-]) (./editaveis/simbolos.tex [23
+] [12
 
 ]
-[24
-
-]) (./fixos/indiceAutomatico.tex [25] [26
-
-]) (./editaveis/introducao.tex)
-(./editaveis/aspectosgerais.tex [27
-
-] [28
-
-] [29] [30]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 27.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 33.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 27.
- [31
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 33.
+ [13])
+(./editaveis/elementosdotexto.tex [14]
 
-] [32]
-Overfull \hbox (6.28964pt too wide) in paragraph at lines 141--143
-[]\T1/lmr/m/n/12 Ainda com res-peito ao pre-en-chi-mento das pá-gi-nas, este de
-ve ser oti-mi-zado, evitando-
- []
+LaTeX Warning: Citation `inmetro2003' on page 15 undefined on input line 7.
 
-[33]) (./editaveis/consideracoes.tex [34] [35
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 45.
+[15
 
-]) (./editaveis/textoepostexto.tex [36] [37
-
-] [38]) (./editaveis/elementosdotexto.tex
-
-LaTeX Warning: Citation `inmetro2003' on page 39 undefined on input line 7.
-
-
-LaTeX Warning: Reference `eqn01' on page 39 undefined on input line 52.
-
-[39
-
-]
-
-LaTeX Warning: Reference `eqn01' on page 40 undefined on input line 55.
-
-
-LaTeX Warning: Reference `eqn01' on page 40 undefined on input line 56.
-
-
-LaTeX Warning: Reference `fig01' on page 40 undefined on input line 77.
-
-
-LaTeX Warning: Reference `fig01' on page 40 undefined on input line 92.
-
-
-LaTeX Warning: Reference `fig01' on page 40 undefined on input line 93.
-
-
-LaTeX Warning: Reference `fig01' on page 40 undefined on input line 95.
-
-[40]
-
-LaTeX Warning: Reference `fig01' on page 41 undefined on input line 100.
-
-
-LaTeX Warning: Reference `fig01' on page 41 undefined on input line 101.
-
-
-LaTeX Warning: Reference `fig01' on page 41 undefined on input line 106.
-
+] [16]
 File: figuras/fig01.eps Graphic file (type eps)
-<figuras/fig01.eps>
+ <figuras/fig01.eps> [17]
 
-LaTeX Warning: Reference `tab01' on page 41 undefined on input line 123.
-
-[41]
-
-LaTeX Warning: Reference `tab01' on page 42 undefined on input line 134.
+LaTeX Warning: Citation `bordalo1989' on page 18 undefined on input line 178.
 
 
-LaTeX Warning: Reference `tab01' on page 42 undefined on input line 135.
+LaTeX Warning: Citation `coimbra1978' on page 18 undefined on input line 180.
 
 
-LaTeX Warning: Reference `tab01' on page 42 undefined on input line 137.
+LaTeX Warning: Citation `clark1986' on page 18 undefined on input line 180.
 
 
-LaTeX Warning: Reference `tab01' on page 42 undefined on input line 141.
+LaTeX Warning: Citation `sparrow1980' on page 18 undefined on input line 181.
 
 
-LaTeX Warning: Reference `tab01' on page 42 undefined on input line 142.
+LaTeX Warning: Citation `soviero1997' on page 18 undefined on input line 185.
 
-
-LaTeX Warning: Reference `tab01' on page 42 undefined on input line 146.
-
-
-LaTeX Warning: Citation `bordalo1989' on page 42 undefined on input line 178.
-
-
-LaTeX Warning: Citation `coimbra1978' on page 42 undefined on input line 180.
-
-
-LaTeX Warning: Citation `clark1986' on page 42 undefined on input line 180.
-
-
-LaTeX Warning: Citation `sparrow1980' on page 42 undefined on input line 181.
-
-
-LaTeX Warning: Citation `soviero1997' on page 42 undefined on input line 185.
-
-) (./editaveis/elementosdopostexto.tex [42] [43] [44
+) (./editaveis/elementosdopostexto.tex [18] [19] [20
 
 ]
 
-LaTeX Warning: Citation `NBR6034:2000' on page 45 undefined on input line 35.
+LaTeX Warning: Citation `NBR6034:2000' on page 21 undefined on input line 35.
 
 
-LaTeX Warning: Citation `arruda2007' on page 45 undefined on input line 38.
+LaTeX Warning: Citation `arruda2007' on page 21 undefined on input line 38.
 
-[45])
+[21])
 No file tcc.bbl.
-(./editaveis/apendices.tex [46]
+(./editaveis/anexos.tex [22]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 4.
 
-[47
+[23
 
 
-] [48] [49
+] [24] [25
 
-] [50
-
-]) (./editaveis/anexos.tex [51] [52
-
-]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 4.
-
-[53
-
-] [54] [55
-
-] [56
+] [26
 
 ])
 No file tcc.ind.
 
-Package lastpage Warning: Rerun to get the references right on input line 46.
-
-
 AED: lastpage setting LastPage
-[57]
+[27]
 \tf@lof=\write5
 \openout5 = `tcc.lof'.
 
@@ -1295,30 +1164,30 @@ AED: lastpage setting LastPage
 \tf@toc=\write7
 \openout7 = `tcc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 46.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 37.
 \BKM@file=\write8
 \openout8 = `tcc.out.ps'.
 
  (./tcc.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 46.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 46.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
 
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 12338 strings out of 493106
- 180549 string characters out of 6137098
- 305947 words of memory out of 5000000
- 15532 multiletter control sequences out of 15000+600000
- 91850 words of font info for 57 fonts, out of 8000000 for 9000
+ 12278 strings out of 493106
+ 179253 string characters out of 6137098
+ 307436 words of memory out of 5000000
+ 15492 multiletter control sequences out of 15000+600000
+ 90961 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,13n,51p,891b,568s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 45i,12n,51p,1256b,504s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tcc.dvi (59 pages, 86128 bytes).
+Output written on tcc.dvi (29 pages, 66912 bytes).
