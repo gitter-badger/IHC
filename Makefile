@@ -40,7 +40,7 @@ all:
      
 $(TARGET): $(MAIN_FILE) $(SOURCES) bibliografia.bib
 	$(LATEX) $(MAIN_FILE) $(SOURCES)
-#	$(BIBTEX) $(AUX_FILE)
+	$(BIBTEX) $(AUX_FILE)
 #$(LATEX) $(MAIN_FILE) $(SOURCES)
 #$(LATEX) $(MAIN_FILE) $(SOURCES)
 	$(DVIPS) $(DVI_FILE)
@@ -49,7 +49,7 @@ $(TARGET): $(MAIN_FILE) $(SOURCES) bibliografia.bib
 
 clean:
 	rm -f *~ *.dvi *.ps *.backup *.aux *.log
-	rm -f *.lof *.lot *.blg *.brf *.toc *.idx
+	rm -f *.lof *.lot *.bbl *.blg *.brf *.toc *.idx
 	rm -f tcc.pdf
 	
 dist: clean
@@ -57,3 +57,13 @@ dist: clean
 
 dist-clean: clean
 	rm -f $(PDF_FILE) $(TARGET)
+
+erase_tcc_fga:
+	rm TCC_FGA.pdf
+	
+first_time_compile: dist-clean all 
+
+build_refer: first_time_compile erase_tcc_fga
+	@make $(TARGET)
+		
+
