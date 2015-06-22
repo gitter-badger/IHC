@@ -22,7 +22,7 @@ EDITAVEIS_SOURCES = informacoes.tex errata.tex dedicatoria.tex \
 					apendices.tex anexos.tex historico.tex \
 					metasusabilidade.tex cronograma.tex\
 					planejamentoavaliacao.tex ferramentas.tex \
-					prototipos.tex \
+					prototipos.tex resultados.tex\
 
 EDITAVEIS_FILES = $(addprefix $(EDITAVEIS_DIR)/, $(EDITAVEIS_SOURCES))
 
